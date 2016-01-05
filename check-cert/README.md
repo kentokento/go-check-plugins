@@ -8,5 +8,5 @@ Check for days on the expiration date of the SSL certificate of DNS-NAME.
 
 ```
 [plugin.checks.ssl-cert]
-command = "/path/to/check-cert -d example.com -c 15 -w 30"
+command = "/path/to/check-cert -d example.com -w 15 -c 30"
 ```
